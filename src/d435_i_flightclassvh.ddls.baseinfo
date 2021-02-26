@@ -1,0 +1,15 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"DS4_I_FLIGHTCLASS"
+],
+"ASSOCIATED":
+[
+"DS4_I_FLIGHTCLASST"
+],
+"BASE":
+[]
+}
+}

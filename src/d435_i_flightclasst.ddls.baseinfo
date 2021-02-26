@@ -1,0 +1,15 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"DD07T"
+],
+"ASSOCIATED":
+[
+"D435_I_FLIGHTCLASS"
+],
+"BASE":
+[]
+}
+}

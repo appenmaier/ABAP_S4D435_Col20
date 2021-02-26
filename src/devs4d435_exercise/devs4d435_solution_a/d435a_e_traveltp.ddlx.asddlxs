@@ -1,0 +1,64 @@
+@Metadata.layer: #CORE
+
+@UI: {
+   headerInfo: {
+     typeName: 'Flight Travel',
+     typeNamePlural: 'Flight Travels',
+     title:          { value: 'TravelDescription'},
+     description: { value: 'TravelDescription' }
+               }
+     }
+
+annotate view d435a_c_traveltp
+  with 
+{
+        @UI: {
+               identification: [ { position: 10, importance: #HIGH } ]
+             }
+        travelagency;
+   
+        @UI: {
+               identification: [ { position: 20, importance: #HIGH } ]
+             }   
+       travelnumber;
+              
+        @UI: {
+               lineItem:       [ { position: 20, importance: #HIGH } ],
+               identification: [ { position: 30, importance: #HIGH } ]
+             }
+                
+       traveldescription;
+       
+        @UI: {
+               lineItem:       [ { position: 30, importance: #HIGH } ],
+               identification: [ { position: 40, importance: #HIGH } ]
+             }          
+             
+       customer;
+       
+        @UI: {
+               lineItem:       [ { position: 40, importance: #HIGH } ],
+               identification: [ { position: 50, importance: #HIGH } ]
+             }  
+              
+       startdate;
+       
+        @UI: {
+               lineItem:       [ { position: 50, importance: #HIGH } ],
+               identification: [ { position: 60, importance: #HIGH } ]
+             }   
+       enddate;
+
+        @UI: {
+               lineItem:       [ { position: 10, importance: #HIGH } ],
+               identification: [ { position: 70, importance: #HIGH } ]
+             }   
+       status;
+       
+        @UI.hidden: true
+       changedat;
+       
+        @UI.hidden: true
+       changedby;
+  
+}

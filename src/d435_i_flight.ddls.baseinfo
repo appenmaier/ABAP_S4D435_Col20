@@ -1,0 +1,15 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"SFLIGHT"
+],
+"ASSOCIATED":
+[
+"D435_I_CONNECTION"
+],
+"BASE":
+[]
+}
+}
